@@ -36,3 +36,14 @@ def test_command_line_interface():
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
     assert '--help  Show this message and exit.' in help_result.output
+
+def test_nocomentarios(capsys):
+    """We use the capsys argument to capture printing to stdout."""
+    # The ingredients function prints the results, but returns nothing.
+    assert nocomentariosN2T.noComentariosN2T() == None
+
+    # Capture the result of the nocomentariosN2T.noComentariosN2T() function call.
+    captured = capsys.readouterr()
+
+    # If we check captured, we can see that the noComentariosN2T have been printed.
+    assert "funciono" in captured.out
