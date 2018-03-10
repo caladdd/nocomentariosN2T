@@ -25,7 +25,6 @@ Elimina comentarios de archivos de Nand2Tetris, en esta versión en especifico l
 Features
 --------
 
-* TODO
 
 Credits
 -------
