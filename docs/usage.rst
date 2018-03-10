@@ -2,6 +2,8 @@
 Usage
 =====
 
-To use NoComentariosN2T in a project::
+To use `nocomentariosN2T` in a project::
 
-    import nocomentariosN2T
+    >>> froma nocomentariosN2T.nocomentariosN2T impor noComentariosN2T
+    >>> noComentariosN2T
+    lista de archivos sobre los que se ejecuta el cambio
